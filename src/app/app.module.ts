@@ -2,13 +2,18 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PokemonDetailComponent } from './pages/pokemon-detail/pokemon-detail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PokemonDetailComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    // para poder hacer peticiones http a una API o backend
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
