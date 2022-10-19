@@ -27,7 +27,7 @@ Los estilos los añadimos a la lista de "styles", (dentro de "build")
 
 # Trabajado en clase
 
-En clase hemos trabajado en el directorio "src", hemos creado un servicios en src/app/services con el CLI de Angular y en src/app/pages, un componente.
+En clase hemos trabajado en el directorio "src", hemos creado un servicio en src/app/services con el CLI de Angular y en src/app/pages, un componente.
 
 Hemos importado en nuestra aplicación las funcionalidades para hacer peticiones HTTP, añadiendo HttpClientModule a la lista de imports de AppModule.
 
