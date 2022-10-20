@@ -11,6 +11,8 @@ Ejecuta `npm install bootstrap jquery @popperjs/core` para instalar Bootstrap y 
 Para utilizarlo en el proyecto no lo insertamos en el index.html, sino en el fichero de configuración de Angular (angular.json).
 De esta forma, si actualizamos Bootstrap o jQuery con npm, no hay que cambiar nada.
 
+En angular.json:
+
 Los scripts los añadimos a la lista de "scripts", (dentro de "build"), jQuery va antes, ya que Bootstrap lo utilizará
 
 "scripts": [
